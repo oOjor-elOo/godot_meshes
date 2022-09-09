@@ -1,0 +1,9 @@
+[gd_resource type="ORMMaterial3D" load_steps=2 format=3 uid="uid://knhtm56feal5"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_isk7q"]
+load_path = "res://.godot/imported/NormalMap.png-7dc90e6e5824dcfab521cc31ed549ea3.s3tc.ctex"
+
+[resource]
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.176471, 1, 0.12549, 1)
+normal_texture = SubResource("CompressedTexture2D_isk7q")

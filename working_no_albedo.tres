@@ -1,0 +1,11 @@
+[gd_resource type="ORMMaterial3D" load_steps=3 format=3 uid="uid://b51nrv8bxvb4"]
+
+[ext_resource type="Texture2D" uid="uid://dk3dk772sfs2b" path="res://texture-ground-seamless.jpg" id="1_00w10"]
+[ext_resource type="Texture2D" uid="uid://1ejfwiibkll6" path="res://NormalMap.png" id="2_v268m"]
+
+[resource]
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.623529, 0.854902, 0.25098, 1)
+albedo_texture = ExtResource("1_00w10")
+normal_enabled = true
+normal_texture = ExtResource("2_v268m")
